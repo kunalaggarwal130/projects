@@ -1,0 +1,176 @@
+body{
+	background-image: url("images/page-bg.jpg");
+	margin:0;
+}
+body > main {
+  background-image: url("images/body-bg.png");
+  margin: 0px auto;
+  max-width: 968px;
+  /*height: 100%;*/
+}
+header#main {
+  padding: 20px;
+  display:flex;
+  justify-content: space-between;
+   background-color: black;
+  opacity: 0.5;
+}
+.bar{
+	list-style:none;
+}
+.bar>li>a{
+	text-decoration:none;
+}
+nav>ul>li>a{
+	color: rgb(106, 105, 105);
+}
+nav>ul{
+display:flex;
+justify-content: space-between;
+}
+nav{
+	width:40%;
+}
+
+h1#A {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 60px;
+  color: rgb(106, 105, 105);
+  width: 100%
+}
+header#Aboutheader {
+  display: flex;
+  margin-top:10%
+}
+section#About {
+  padding: 0 5%;
+}
+#Aboutheader>div {
+  display: flex;
+    justify-content: space-between;
+	padding: 3% 0;
+	  width: 12%;
+}
+.ruler{
+	background-image:url("images/divider.png");
+	height:10px;
+}
+div#photo {
+  background-color: black;
+  height: 320px;
+  width: 28%;
+}
+div#Adescription{
+	width:80%;
+	padding-left: 3%;
+}
+div#containerforabout {
+  display: flex;
+  margin-top:30px;
+}
+#Adescription>h2{
+	margin-top:0;
+}
+div#logos {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.ruler2{
+	margin: 50px 0;
+}
+.ruler3{
+	margin:25px 0;
+}
+section#Experience {
+  padding: 0 5%;
+}
+h1 {
+  margin: 0;
+  font-size: 60px;
+  color: rgb(106, 105, 105);
+}
+h2,p,h3{
+	color: rgb(106, 105, 105);
+}
+#box{
+	display:flex;
+}
+#item{
+	margin-right:1%;
+	margin-left:1%;
+}
+section#Work {
+  padding: 0 5%;
+}
+section#Connect {
+  padding: 0 5%;
+}
+.photo {
+  background-color: rgb(16, 16, 16);
+  height: 200px;
+  width: 23.5%;
+    margin-bottom: 15px;
+}
+.oneline{
+	display: flex;
+	justify-content:space-between;
+}
+div#form_container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+label {
+  width: 30%;
+  padding-right: 15%;
+    color: rgb(106, 105, 105);
+}
+input[type="text"] {
+  width: 65%;
+  height: 20px;
+}
+label#Message {
+  /* width: 5%; */
+  padding-right: 11%;
+  vertical-align: top;
+}
+textarea {
+  width: 65%;
+  height:40%;
+}
+.items {
+  padding: 2%;
+}
+section#connectdata {
+  width: 40%;
+}
+#connectdata>h2 {
+  margin-top: 0;
+}
+div#big_container {
+  display: flex;
+}
+ #name{
+  background-image: url("images/icon-user.png");
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+#email{
+  background-image: url("images/icon-mail.png");
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+#mess{
+  background-image: url("images/icon-message.png");
+  background-repeat: no-repeat;
+  background-color:black;
+  border:0;
+  opacity: 0.6;
+}
+input {
+  background-color: black;
+  border: 0;
+}

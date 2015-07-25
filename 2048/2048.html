@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>2048</title>
+		<link rel="stylesheet" type="text/css" href="2048.css">
+		<script src="2048.js" type="application/ecmascript"></script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="menu">
+				<div class="name">
+				</div>
+				<div class="mini">
+					<div class = "inner">
+						<div class="undo" id="undo">
+						</div>
+						<div class="restart" id="restart">
+						</div>
+					</div>
+					<div class="inner">
+						<div class="score">
+						Score:
+						</div>
+						<div class="high_score">
+						BEST:
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="base " id="first"></div>
+				<div class="base " id=" second"></div>
+				<div class="base" id=" third"></div>
+				<div class="base" id=" fourth"></div>
+				<div class="base" id=" fifth"></div>
+				<div class="base" id=" sixth"></div>
+				<div class="base" id=" seventh"></div>
+				<div class="base" id=" eighth"></div>
+				<div class="base" id=" nineth"></div>
+				<div class="base" id=" tenth"></div>
+				<div class="base" id=" eleventh"></div>
+				<div class="base" id=" twelfth"></div>
+				<div class="base" id=" thirteenth"></div>
+				<div class="base" id=" fourteenth"></div>
+				<div class="base" id=" fifteenth"></div>
+				<div class="base" id="sixteenth"></div>
+			</div>
+		</div>
+		<script>
+			function init(){
+				myfunction("base","restart","undo");
+			}
+			window.addEventListener('load',init);
+		</script>
+	</body>
+</html>

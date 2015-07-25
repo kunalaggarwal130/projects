@@ -1,0 +1,335 @@
+ *{
+	margin:0;
+	padding:0;
+}
+ body{
+	//background-color:rgb(210, 208, 208);
+	height:2000px;
+ }
+ main {
+ // max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  //margin-top: 30px;
+ // 
+}
+ #main{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	display:flex;
+	box-shadow: 0px 5px 5px #888888;
+	justify-content: space-around;
+	align-items: center;
+	background-color:white;
+	padding: 10px 0;
+	z-index:5000;
+}
+#home , #about_us{
+	padding-top:90px;
+}
+#logo{
+	height:80px;
+}
+#main>h1{
+	color:rgb(106, 107, 107);
+	line-height: 80px;
+	text-align:center;
+}
+
+
+nav.menu {
+  width: 35%;
+}
+.menu ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.menu a:target{
+	color:yellow;
+}
+.menu a{
+	color:red;
+	text-decoration:none;
+}
+.menu a:hover{
+	color:green;
+}
+.home{
+	box-shadow: 0px 5px 5px #888888;
+}
+.home img {
+
+  width: 100%;
+}
+#image-1{
+	//height:389px;
+}
+#image-2{
+	display:none;
+	//height:450px;
+}
+#image-4{
+	display:none;
+	height:437px;
+}
+#twin_images{
+	display:none;
+}
+#image-3{
+	display:none;
+	//height:389px;
+}
+.home>div{
+	position:relative;
+}
+#arrow-box{
+	display:none;
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	width: 80px;
+	font-size: 30px;
+}
+#arrow-box i{
+	color:white;
+}
+.home:hover #arrow-box{
+	display:flex;
+	justify-content:space-around;
+}
+/*section about us*/
+#about_us {
+	width:80%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 30px;
+}
+#about_us> header {
+  text-align: center;
+  color: rgb(87, 83, 83);
+  padding-top: 10px;
+  font-size: 1.8em;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+#about_us_main>div{
+	display:flex;
+	justify-content:space-around;
+}
+#about_us:hover #our_goal, #about_us:hover #quality_assurance,#about_us:hover #why_us {
+	background-color:rgb(223, 107, 107);
+	color:white;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+#about_us:hover .fa.fa-flag, #about_us:hover .fa-cog ,#about_us:hover .fa-shopping-cart{
+	color:white;
+} 
+
+#about_us:hover #our_goal .display, #about_us:hover  #quality_assurance .display,#about_us:hover #why_us .display{
+	display:none;
+}
+#about_us:hover #our_goal .no_display, #about_us:hover  #quality_assurance .no_display,#about_us:hover #why_us .no_display{
+	display:block;
+}
+
+#our_goal, #quality_assurance, #why_us {
+  background-color: rgb(237, 237, 237);
+  color: rgb(108, 108, 108);
+  height: 200px;
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 12px;
+  margin-bottom:30px;
+}
+i.fa.fa-flag, .fa-cog, .fa-shopping-cart {
+  height: 20px;
+  font-size: 50px;
+  margin-left: 20px;
+  color: rgb(223, 107, 107);
+  margin-right: 30px;
+}
+.no_display{
+	display:none;
+}
+#text{
+	display:flex;
+	//width:80%;
+}
+#text p {
+  width: 30%;
+  font-family: cursive;
+  color: rgb(94, 94, 94);
+  font-size: medium;
+}
+#motto{
+	text-align:center;
+	font-family:cursive;
+	margin:20px 0;
+}
+
+#about_us footer a{
+	height:30px;
+	background-color:rgb(242, 125, 125);
+	color:white;
+	width:40%;
+	text-align:center;
+	margin-top:30px;
+	margin-right:auto;
+	margin-left:auto;
+	padding:20px;
+	text-decoration:none;
+	display:flex;
+	font-size:30px;
+	line-height:30px;
+	border-radius:10px;
+	
+}
+#about_us footer a p{
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+}
+#more_about_us{
+	display:none;
+}
+#more_about_us h2{
+	text-align: center;
+  color: rgb(87, 83, 83);
+  padding-top: 10px;
+  font-size: 1.8em;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+.show_less{
+	display:inline;
+	position:absolute;
+	left:20px;
+}
+.fa-arrow-circle-up{
+	font-size:50px;
+	color:rgb(242, 125, 125);
+}
+.fa-arrow-circle-up + p{
+	display:none;
+	color:rgb(242, 125, 125);
+}
+.fa-arrow-circle-up:hover + p{
+	display:inline;
+	position:absolute;
+	width:100px;
+	top:-20px;
+	font-family:cursive;
+}
+p.company_profile {
+  margin-top: 30px;
+  width: 80%;
+  color: rgb(94, 94, 94);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: cursive;
+}
+/*section our_products*/
+#products{
+	padding:100px 30px;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#products  header{
+	text-align: center;
+  color: rgb(87, 83, 83);
+  padding-top: 10px;
+  font-size: 1.8em;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+#products main p{
+	font-family:cursive;
+	color: rgb(87, 83, 83);
+	//text-align:center;
+	margin-bottom:40px;
+}
+.txt{
+	color: rgb(87, 83, 83);
+	display:flex;
+	flex-direction:column;
+	width:50%;
+	font-family:cursive;
+}
+.product{
+	display:flex;
+}
+.product img{
+	height:250px;
+	//width:50%;
+}
+/*contact us section*/
+#contact_us{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:100px 30px;
+}
+#contact_us >header{
+	background-color:black;
+	text-align:center;
+	color:white;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-family:cursive;
+}
+#contact_us h1{
+	font-size:40px;
+	margin-bottom:20px;
+}
+#contact_us main {
+  background-image: url("image2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height:500px;
+}
+#contact_details{
+	background:white;
+	width:30%;
+	border-radius:10px;
+	/*position:absolute;
+	bottom:50px;
+	left:40px;*/
+}
+#contact_details h3{
+	color:rgb(237, 62, 62);
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#contact_details p{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:cursive;
+	padding-bottom:20px;
+}
+#contact_details header{
+	background-color:blue;
+	text-align:center;
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-family:cursive;
+	font-size:30px;
+	margin-bottom:50px;
+}
